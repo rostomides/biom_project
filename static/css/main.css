@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.tax-selected {
+  color: red
+}
+
+select option.tax-selected:hover{
+  background-color: red !important;
+  color: #fff !important; 
+}
+
+
+/* / Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    html {
+      font-size: 1rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  html {
+    font-size: 1.2rem;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    html {
+      font-size: 1.4rem;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  html {
+    font-size: 1.4rem;
+  }
+}
